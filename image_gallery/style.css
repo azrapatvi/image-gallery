@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Optional font */
+    background-color: #f0f0f0; /* Optional background color */
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Space between columns */
+    flex-wrap: wrap; /* Allow wrapping */
+    padding: 20px; /* Optional padding */
+}
+.column {
+    flex: 1; /* Each column takes equal space */
+    padding: 10px; /* Optional padding inside each column */
+    display: flex; /* Use Flexbox for each column */
+    flex-direction: column; /* Stack images vertically */
+
+}
+
+.col1{
+    max-width: 100%;
+}
+.column img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between images */
+    border-radius: 5px; /* Optional rounded corners */
+}
+.column img:hover{
+    transform: scale(1.06);
+}
+.img13{
+    min-height: 10px;
+}
+.img6{
+    width: 500px;
+}
+h1{
+    display: inline-block;
+    border-bottom: 4px solid;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
